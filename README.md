@@ -1,20 +1,17 @@
-<h2 align="left">Hi 👋! My name is Enas Khaled, and I'm an ICT Teacher & Oracle Fusion Technical Consultant from Saudi Arabia</h2>
+# 💫About Me :
+<h2 align="center">Hi 👋! My name is Enas Khaled, and I'm an ICT Teacher & Oracle Fusion Technical Consultant </h2>
+
+
 
 ###
-
+# 💻Tech Stack
+![MySQL](https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white) ![Trello](https://img.shields.io/badge/Trello-%23026AA7.svg?style=for-the-badge&logo=Trello&logoColor=white)
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Enas-Khaled&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=dracula&locale=en&hide_border=false" height="150" alt="stats graph"  />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=Enas-Khaled&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dracula&hide_border=false" height="150" alt="languages graph"  />
-</div>
-
-
-
-###
-
-<div align="left">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sql/sql-original.svg" height="30" alt="sql logo"  />
+  <img src="https://raw.githubusercontent.com/devicons/devicon/refs/tags/v2.17.0/icons/sqldeveloper/sqldeveloper-original.svg" height="30" alt="sql logo"  />
   <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/plsql/plsql-original.svg" height="30" alt="plsql logo"  />
+  <img src="https://raw.githubusercontent.com/devicons/devicon/refs/tags/v2.17.0/icons/bash/bash-original.svg" height="30" alt="bashlogo" />  
+  <img width="12" />
+  <img src="https://raw.githubusercontent.com/devicons/devicon/refs/tags/v2.17.0/icons/oracle/oracle-original.svg" height="30" alt="sql logo"  />
   <img width="12" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="30" alt="javascript logo"  />
   <img width="12" />
@@ -27,13 +24,10 @@
 
 ###
 
-<div align="left">
-  <a href="https://www.youtube.com/yourchannel" target="_blank"><img src="https://img.shields.io/static/v1?message=Youtube&logo=youtube&label=&color=FF0000&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="youtube logo"  /></a>
-  <a href="https://www.instagram.com/yourprofile" target="_blank"><img src="https://img.shields.io/static/v1?message=Instagram&logo=instagram&label=&color=E4405F&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="instagram logo"  /></a>
-  <a href="https://www.twitch.tv/yourprofile" target="_blank"><img src="https://img.shields.io/static/v1?message=Twitch&logo=twitch&label=&color=9146FF&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="twitch logo"  /></a>
-  <a href="https://discord.com/users/yourprofile" target="_blank"><img src="https://img.shields.io/static/v1?message=Discord&logo=discord&label=&color=7289DA&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="discord logo"  /></a>
-  <a href="mailto:your.email@example.com" target="_blank"><img src="https://img.shields.io/static/v1?message=Gmail&logo=gmail&label=&color=D14836&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="gmail logo"  /></a>
-  <a href="https://www.linkedin.com/in/yourprofile" target="_blank"><img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="linkedin logo"  /></a>
+<div align="center">
+  <a href="https://discord.com/users/enas4721" target="_blank"><img src="https://img.shields.io/static/v1?message=Discord&logo=discord&label=&color=7289DA&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="discord logo"  /></a>
+  <a href="mailto:enas.ah.khaled@gmail.com" target="_blank"><img src="https://img.shields.io/static/v1?message=Gmail&logo=gmail&label=&color=D14836&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="gmail logo"  /></a>
+  <a href="https://www.linkedin.com/in/enas-khaled/" target="_blank"><img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="linkedin logo"  /></a>
 </div>
 
 ###
