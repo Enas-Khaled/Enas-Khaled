@@ -1,7 +1,7 @@
 <div align="center">
   
-# 💫About Me :
-<h2 align="center">Hi 👋! My name is Enas Khaled, and I'm an ICT Teacher & Oracle Fusion Technical Consultant </h2>
+# 💫About Me 
+<h2 align="center">Hi 👋! <br> My name is Enas Khaled, and I'm an ICT Teacher & Oracle Fusion Technical Consultant </h2>
 
 ###
 <br clear="both">
