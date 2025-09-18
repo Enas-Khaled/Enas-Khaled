@@ -19,13 +19,6 @@ jobs:
           outputs: |
             github-contribution-grid-snake.svg
 
-      - name: Generate Snake Animation (Dark)
-        uses: Platane/snk@v3
-        with:
-          github_user_name: Enas-Khaled
-          outputs: |
-            github-contribution-grid-snake-dark.svg
-          args: "--palette github-dark"
 
       - name: Commit and push generated SVGs
         run: |
