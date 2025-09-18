@@ -5,9 +5,15 @@
 
 ###
 # 💻Tech Stack
-<dev align="center">
+<div align="center">
+
+  ![MySQL](https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white) 
+  ![Trello](https://img.shields.io/badge/Trello-%23026AA7.svg?style=for-the-badge&logo=Trello&logoColor=white) 
+
+</div>
+
   ![MySQL](https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white) ![Trello](https://img.shields.io/badge/Trello-%23026AA7.svg?style=for-the-badge&logo=Trello&logoColor=white)
-</dev>
+
 <div align="center">
   <img src="https://raw.githubusercontent.com/devicons/devicon/refs/tags/v2.17.0/icons/sqldeveloper/sqldeveloper-original.svg" height="30" alt="sql logo"  />
   <img width="12" />
