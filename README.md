@@ -40,5 +40,5 @@
 
 <br clear="both">
 
-<img src="https://raw.githubusercontent.com/Enas-Khaled/Enas-Khaled/output/github-contribution-grid-snake.svg" alt="Snake animation" />
-![Snake animation](https://raw.githubusercontent.com/Enas-Khaled/Enas-Khaled/output/github-contribution-grid-snake.svg)
+![Snake animation](https://raw.githubusercontent.com/Enas-Khaled/Enas-Khaled/main/github-contribution-grid-snake.svg)
+
