@@ -1,3 +1,4 @@
+<div align="center">
 # 💫About Me :
 <h2 align="center">Hi 👋! My name is Enas Khaled, and I'm an ICT Teacher & Oracle Fusion Technical Consultant </h2>
 
@@ -31,6 +32,7 @@
 <!-- [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Enas-Khaled)](https://github.com/anuraghazra/github-readme-stats) -->
 
 ###
+<br clear="both">
 <div align="center">
   <a href="https://discord.com/users/enas4721" target="_blank"><img src="https://img.shields.io/static/v1?message=Discord&logo=discord&label=&color=7289DA&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="discord logo"  /></a>
   <a href="mailto:enas.ah.khaled@gmail.com" target="_blank"><img src="https://img.shields.io/static/v1?message=Gmail&logo=gmail&label=&color=D14836&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="gmail logo"  /></a>
@@ -42,4 +44,4 @@
 <br clear="both">
 
 ![Snake animation](https://raw.githubusercontent.com/Enas-Khaled/Enas-Khaled/main/github-contribution-grid-snake.svg)
-
+</div>
