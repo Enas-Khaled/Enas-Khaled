@@ -5,18 +5,16 @@ on:
   schedule:
     - cron: '0 0 * * *'  # optional daily run at midnight UTC
 
-
 jobs:
   generate-snake:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout repository
+      - name: Checkout repo
         uses: actions/checkout@v3
 
       - name: Generate Snake Animation
         uses: Platane/snk@v3
         with:
-          github_user_name: ${{ github.Enas-Khaled }}
+          github_user_name: Enas-Khaled   
           outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+            github-contribution-grid-snake.svg
