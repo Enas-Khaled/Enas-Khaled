@@ -1,36 +1,32 @@
 name: Generate Snake Game
 
 on:
-  workflow_dispatch:   # allows manual run
+  workflow_dispatch:
   schedule:
-    - cron: '0 0 * * *'   # daily at midnight UTC
+    - cron: '0 0 * * *'
 
 jobs:
   generate-snake:
     runs-on: ubuntu-latest
     steps:
-      # Step 1: Checkout repository
       - name: Checkout repo
         uses: actions/checkout@v3
 
-      # Step 2: Generate light mode snake SVG
       - name: Generate Snake Animation (Light)
         uses: Platane/snk@v3
         with:
-          github_user_name: Enas-Khaled      # <-- replace with your GitHub username
+          github_user_name: Enas-Khaled
           outputs: |
             github-contribution-grid-snake.svg
 
-      # Step 3: Generate dark mode snake SVG
       - name: Generate Snake Animation (Dark)
         uses: Platane/snk@v3
         with:
           github_user_name: Enas-Khaled
           outputs: |
             github-contribution-grid-snake-dark.svg
-          palette: github-dark
+          args: "--palette github-dark"
 
-      # Step 4: Commit and push SVGs
       - name: Commit and push generated SVGs
         run: |
           git config --local user.name "GitHub Actions"
