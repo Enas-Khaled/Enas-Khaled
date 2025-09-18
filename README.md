@@ -5,8 +5,9 @@
 
 ###
 # 💻Tech Stack
-![MySQL](https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white) ![Trello](https://img.shields.io/badge/Trello-%23026AA7.svg?style=for-the-badge&logo=Trello&logoColor=white)
+
 <div align="center">
+  ![MySQL](https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white) ![Trello](https://img.shields.io/badge/Trello-%23026AA7.svg?style=for-the-badge&logo=Trello&logoColor=white)
   <img src="https://raw.githubusercontent.com/devicons/devicon/refs/tags/v2.17.0/icons/sqldeveloper/sqldeveloper-original.svg" height="30" alt="sql logo"  />
   <img width="12" />
   <img src="https://raw.githubusercontent.com/devicons/devicon/refs/tags/v2.17.0/icons/bash/bash-original.svg" height="30" alt="bashlogo" />  
@@ -23,7 +24,9 @@
 </div>
 
 ###
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Enas-Khaled)](https://github.com/anuraghazra/github-readme-stats)
 
+###
 <div align="center">
   <a href="https://discord.com/users/enas4721" target="_blank"><img src="https://img.shields.io/static/v1?message=Discord&logo=discord&label=&color=7289DA&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="discord logo"  /></a>
   <a href="mailto:enas.ah.khaled@gmail.com" target="_blank"><img src="https://img.shields.io/static/v1?message=Gmail&logo=gmail&label=&color=D14836&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="gmail logo"  /></a>
