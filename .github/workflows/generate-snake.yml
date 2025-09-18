@@ -1,9 +1,12 @@
 name: Generate Snake Game
 
 on:
-  workflow_dispatch:
+  workflow_dispatch:      # allows manual run from Actions tab
   schedule:
-    - cron: '0 0 * * *'
+    - cron: "0 0 * * *"   # runs daily at midnight (UTC)
+
+permissions:
+  contents: write         # ✅ allow push access to repo
 
 jobs:
   generate-snake:
@@ -19,13 +22,10 @@ jobs:
           outputs: |
             github-contribution-grid-snake.svg
 
-
-      - name: Commit and push generated SVGs
+      - name: Commit and push generated SVG
         run: |
           git config --local user.name "GitHub Actions"
           git config --local user.email "actions@github.com"
-          git add github-contribution-grid-snake.svg github-contribution-grid-snake-dark.svg || true
-          git diff --cached --quiet || git commit -m "Update snake animations"
-          git push https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }}.git HEAD:main
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          git add github-contribution-grid-snake.svg || true
+          git diff --cached --quiet || git commit -m "Update snake animation"
+          git push
