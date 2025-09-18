@@ -19,12 +19,12 @@ jobs:
           outputs: |
             github-contribution-grid-snake.svg
 
-      - name: Commit and push generated SVG
-        run: |
+     - name: Commit and push generated SVG
+       run: |
           git config --local user.name "GitHub Actions"
           git config --local user.email "actions@github.com"
-          git add github-contribution-grid-snake.svg
-          git commit -m "Update snake animation" || echo "No changes to commit"
-          git push
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          git add github-contribution-grid-snake.svg || true
+          git diff --cached --quiet || git commit -m "Update snake animation"
+          git push https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }}.git HEAD:main
+       env:
+         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
