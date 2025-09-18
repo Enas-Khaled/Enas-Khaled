@@ -1,30 +1,42 @@
 name: Generate Snake Game
 
 on:
-  workflow_dispatch:  # allows manual trigger
+  workflow_dispatch:   # allows manual run
   schedule:
-    - cron: '0 0 * * *'  # optional daily run
+    - cron: '0 0 * * *'   # daily at midnight UTC
 
 jobs:
   generate-snake:
     runs-on: ubuntu-latest
     steps:
+      # Step 1: Checkout repository
       - name: Checkout repo
         uses: actions/checkout@v3
 
-      - name: Generate Snake Animation
+      # Step 2: Generate light mode snake SVG
+      - name: Generate Snake Animation (Light)
         uses: Platane/snk@v3
         with:
-          github_user_name: Enas-Khaled   # <-- your GitHub username
+          github_user_name: Enas-Khaled      # <-- replace with your GitHub username
           outputs: |
             github-contribution-grid-snake.svg
 
-     - name: Commit and push generated SVG
-       run: |
+      # Step 3: Generate dark mode snake SVG
+      - name: Generate Snake Animation (Dark)
+        uses: Platane/snk@v3
+        with:
+          github_user_name: Enas-Khaled
+          outputs: |
+            github-contribution-grid-snake-dark.svg
+          palette: github-dark
+
+      # Step 4: Commit and push SVGs
+      - name: Commit and push generated SVGs
+        run: |
           git config --local user.name "GitHub Actions"
           git config --local user.email "actions@github.com"
-          git add github-contribution-grid-snake.svg || true
-          git diff --cached --quiet || git commit -m "Update snake animation"
+          git add github-contribution-grid-snake.svg github-contribution-grid-snake-dark.svg || true
+          git diff --cached --quiet || git commit -m "Update snake animations"
           git push https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }}.git HEAD:main
-       env:
-         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
